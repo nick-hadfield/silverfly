@@ -1,5 +1,0 @@
-C:\Projects\Silverfly\src\Silverfly\bin\Debug\Silverfly.dll
-C:\Projects\Silverfly\src\Silverfly\bin\Debug\Silverfly.pdb
-C:\Projects\Silverfly\src\Silverfly\obj\Debug\ResolveAssemblyReference.cache
-C:\Projects\Silverfly\src\Silverfly\obj\Debug\Silverfly.dll
-C:\Projects\Silverfly\src\Silverfly\obj\Debug\Silverfly.pdb
