@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a7bd0de5-084d-4ee4-9e6a-4b6ad6472ede" name="nickh@CHANGE-L0231 2009-07-29 09:46:05" runUser="CHANGE\nickh" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Default Run Configuration" id="d6268626-af7b-4ed2-9dca-dafeb596d0a1">
+    <Deployment runDeploymentRoot="C:\Projects\Paddle\src\TestResults\nickh_CHANGE-L0231 2009-07-29 09_46_05">
+      <DeploymentItem filename="C:\Projects\Paddle\src\Clout\bin\Debug\Clout.dll" />
+    </Deployment>
+    <Hosts skipUnhostableTests="false" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-07-29T09:46:05.9049327+08:00" queuing="2009-07-29T09:46:08.0019327+08:00" start="2009-07-29T09:46:08.1839327+08:00" finish="2009-07-29T09:46:09.1169327+08:00" />
+  <TestDefinitions>
+    <UnitTest name="CanPublishSubscribe" storage="c:\projects\paddle\src\clout.test\bin\debug\clout.test.dll" id="dd220919-e252-fbcc-ad28-0ceff79d0017">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="c768a8e5-f099-4b20-8762-1ae4114a23d3" />
+      <TestMethod codeBase="c:\Projects\Paddle\src\Clout.Test\bin\Debug\Clout.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Clout.BusTest, Clout.Test" name="CanPublishSubscribe" />
+    </UnitTest>
+    <UnitTest name="CannotUnsubscribeFromWithinPublish" storage="c:\projects\paddle\src\clout.test\bin\debug\clout.test.dll" id="3aa9b4fc-d380-33cc-a30e-39a31d4b7c17">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="36c9fad1-cb27-4916-9636-b2b197bbc765" />
+      <TestMethod codeBase="c:\Projects\Paddle\src\Clout.Test\bin\Debug\Clout.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Clout.BusTest, Clout.Test" name="CannotUnsubscribeFromWithinPublish" />
+    </UnitTest>
+    <UnitTest name="CannotSubscribeFromWithinPublish" storage="c:\projects\paddle\src\clout.test\bin\debug\clout.test.dll" id="9c61a306-1b70-2d0d-5818-f5e15ff2cf7c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="894ad0e4-e1af-41b6-aee2-7e7e57773c42" />
+      <TestMethod codeBase="c:\Projects\Paddle\src\Clout.Test\bin\Debug\Clout.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Clout.BusTest, Clout.Test" name="CannotSubscribeFromWithinPublish" />
+    </UnitTest>
+    <UnitTest name="CanUnsubscibe" storage="c:\projects\paddle\src\clout.test\bin\debug\clout.test.dll" id="bf107ddb-5f1d-6674-b1cf-996c1f3ea4b5">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="41b45c25-a4c6-4545-b3e6-79868aafe68f" />
+      <TestMethod codeBase="c:\Projects\Paddle\src\Clout.Test\bin\Debug\Clout.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Clout.BusTest, Clout.Test" name="CanUnsubscibe" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9c61a306-1b70-2d0d-5818-f5e15ff2cf7c" executionId="894ad0e4-e1af-41b6-aee2-7e7e57773c42" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3aa9b4fc-d380-33cc-a30e-39a31d4b7c17" executionId="36c9fad1-cb27-4916-9636-b2b197bbc765" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd220919-e252-fbcc-ad28-0ceff79d0017" executionId="c768a8e5-f099-4b20-8762-1ae4114a23d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf107ddb-5f1d-6674-b1cf-996c1f3ea4b5" executionId="41b45c25-a4c6-4545-b3e6-79868aafe68f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="894ad0e4-e1af-41b6-aee2-7e7e57773c42" testId="9c61a306-1b70-2d0d-5818-f5e15ff2cf7c" testName="CannotSubscribeFromWithinPublish" computerName="CHANGE-L0231" duration="00:00:00.1260467" startTime="2009-07-29T09:46:08.2629327+08:00" endTime="2009-07-29T09:46:09.0209327+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>Dog</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="36c9fad1-cb27-4916-9636-b2b197bbc765" testId="3aa9b4fc-d380-33cc-a30e-39a31d4b7c17" testName="CannotUnsubscribeFromWithinPublish" computerName="CHANGE-L0231" duration="00:00:00.0058510" startTime="2009-07-29T09:46:09.0369327+08:00" endTime="2009-07-29T09:46:09.0459327+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>Dog</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c768a8e5-f099-4b20-8762-1ae4114a23d3" testId="dd220919-e252-fbcc-ad28-0ceff79d0017" testName="CanPublishSubscribe" computerName="CHANGE-L0231" duration="00:00:00.0016986" startTime="2009-07-29T09:46:09.0469327+08:00" endTime="2009-07-29T09:46:09.0499327+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>Dog
+Cat</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="41b45c25-a4c6-4545-b3e6-79868aafe68f" testId="bf107ddb-5f1d-6674-b1cf-996c1f3ea4b5" testName="CanUnsubscibe" computerName="CHANGE-L0231" duration="00:00:00.0024304" startTime="2009-07-29T09:46:09.0519327+08:00" endTime="2009-07-29T09:46:09.0569327+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
