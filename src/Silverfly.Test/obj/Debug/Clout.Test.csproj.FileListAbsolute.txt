@@ -1,8 +1,0 @@
-C:\Projects\Paddle\src\Clout.Test\obj\Debug\ResolveAssemblyReference.cache
-C:\Projects\Paddle\src\Clout.Test\bin\Debug\Clout.Test.dll
-C:\Projects\Paddle\src\Clout.Test\bin\Debug\Clout.Test.pdb
-C:\Projects\Paddle\src\Clout.Test\bin\Debug\Clout.dll
-C:\Projects\Paddle\src\Clout.Test\bin\Debug\Clout.pdb
-C:\Projects\Paddle\src\Clout.Test\bin\Debug\Clout.xml
-C:\Projects\Paddle\src\Clout.Test\obj\Debug\Clout.Test.dll
-C:\Projects\Paddle\src\Clout.Test\obj\Debug\Clout.Test.pdb
