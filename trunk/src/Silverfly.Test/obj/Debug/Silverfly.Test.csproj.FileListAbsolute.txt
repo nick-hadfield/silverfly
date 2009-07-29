@@ -1,8 +1,0 @@
-C:\Projects\Silverfly\src\Silverfly.Test\bin\Debug\Clout.Test.dll
-C:\Projects\Silverfly\src\Silverfly.Test\bin\Debug\Clout.Test.pdb
-C:\Projects\Silverfly\src\Silverfly.Test\bin\Debug\Silverfly.dll
-C:\Projects\Silverfly\src\Silverfly.Test\bin\Debug\Silverfly.pdb
-C:\Projects\Silverfly\src\Silverfly.Test\bin\Debug\Silverfly.xml
-C:\Projects\Silverfly\src\Silverfly.Test\obj\Debug\ResolveAssemblyReference.cache
-C:\Projects\Silverfly\src\Silverfly.Test\obj\Debug\Clout.Test.dll
-C:\Projects\Silverfly\src\Silverfly.Test\obj\Debug\Clout.Test.pdb
