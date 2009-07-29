@@ -1,0 +1,5 @@
+C:\Projects\Paddle\src\Paddle\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Paddle\src\Paddle\bin\Debug\Paddle.dll
+C:\Projects\Paddle\src\Paddle\bin\Debug\Paddle.pdb
+C:\Projects\Paddle\src\Paddle\obj\Debug\Paddle.dll
+C:\Projects\Paddle\src\Paddle\obj\Debug\Paddle.pdb

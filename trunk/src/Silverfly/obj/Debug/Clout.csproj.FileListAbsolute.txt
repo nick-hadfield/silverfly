@@ -1,0 +1,11 @@
+C:\Projects\Paddle\src\Paddle\bin\Debug\Clout.xml
+C:\Projects\Paddle\src\Paddle\bin\Debug\Clout.dll
+C:\Projects\Paddle\src\Paddle\bin\Debug\Clout.pdb
+C:\Projects\Paddle\src\Paddle\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Paddle\src\Paddle\obj\Debug\Clout.dll
+C:\Projects\Paddle\src\Paddle\obj\Debug\Clout.pdb
+C:\Projects\Paddle\src\Clout\bin\Debug\Clout.dll
+C:\Projects\Paddle\src\Clout\bin\Debug\Clout.pdb
+C:\Projects\Paddle\src\Clout\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Paddle\src\Clout\obj\Debug\Clout.dll
+C:\Projects\Paddle\src\Clout\obj\Debug\Clout.pdb

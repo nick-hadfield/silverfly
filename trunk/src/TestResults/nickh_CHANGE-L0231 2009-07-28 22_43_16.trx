@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="88a70ab8-270e-4d66-a825-e617fdd37a37" name="nickh@CHANGE-L0231 2009-07-28 22:43:16" runUser="CHANGE\nickh" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="990d52ff-4ff7-43d3-ad1d-c0cb25c2b396">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Projects\Paddle\src\TestResults\nickh_CHANGE-L0231 2009-07-28 22_43_16">
+      <DeploymentItem filename="C:\Projects\Paddle\src\Paddle\bin\Debug\Paddle.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="1" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-07-28T22:43:16.2520000+08:00" queuing="2009-07-28T22:43:16.5890000+08:00" start="2009-07-28T22:43:16.6000000+08:00" finish="2009-07-28T22:43:17.3800000+08:00" />
+  <TestDefinitions>
+    <UnitTest name="CanPublishSubscribe" storage="c:\projects\paddle\paddle.test\bin\debug\paddle.test.dll" id="bc1a2ae7-5d58-4235-5dc3-8d7b7e36fb80">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="7b903540-1f76-435b-bf4a-014952e364aa" />
+      <TestMethod codeBase="C:\Projects\Paddle\Paddle.Test\bin\Debug\Paddle.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Paddle.BusTest, Paddle.Test" name="CanPublishSubscribe" />
+    </UnitTest>
+    <UnitTest name="CannotUnsubscribeFromWithinPublish" storage="c:\projects\paddle\paddle.test\bin\debug\paddle.test.dll" id="8444c13e-e90d-3e2b-618f-75773a62405d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="976157be-c7d2-410e-a7b5-b3365d640377" />
+      <TestMethod codeBase="C:\Projects\Paddle\Paddle.Test\bin\Debug\Paddle.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Paddle.BusTest, Paddle.Test" name="CannotUnsubscribeFromWithinPublish" />
+    </UnitTest>
+    <UnitTest name="CannotSubscribeFromWithinPublish" storage="c:\projects\paddle\paddle.test\bin\debug\paddle.test.dll" id="21593949-431d-b295-d8e8-e11c1b2d7933">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="75637e50-44c6-424c-82d8-ee7db8637526" />
+      <TestMethod codeBase="C:\Projects\Paddle\Paddle.Test\bin\Debug\Paddle.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Paddle.BusTest, Paddle.Test" name="CannotSubscribeFromWithinPublish" />
+    </UnitTest>
+    <UnitTest name="CanUnsubscibe" storage="c:\projects\paddle\paddle.test\bin\debug\paddle.test.dll" id="40ab2078-0261-56e9-5871-30bfe9e8400a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2310e0c9-b45b-4ee6-892e-d32700ed10a7" />
+      <TestMethod codeBase="C:\Projects\Paddle\Paddle.Test\bin\Debug\Paddle.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Paddle.BusTest, Paddle.Test" name="CanUnsubscibe" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="21593949-431d-b295-d8e8-e11c1b2d7933" executionId="75637e50-44c6-424c-82d8-ee7db8637526" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8444c13e-e90d-3e2b-618f-75773a62405d" executionId="976157be-c7d2-410e-a7b5-b3365d640377" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bc1a2ae7-5d58-4235-5dc3-8d7b7e36fb80" executionId="7b903540-1f76-435b-bf4a-014952e364aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="40ab2078-0261-56e9-5871-30bfe9e8400a" executionId="2310e0c9-b45b-4ee6-892e-d32700ed10a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="75637e50-44c6-424c-82d8-ee7db8637526" testId="21593949-431d-b295-d8e8-e11c1b2d7933" testName="CannotSubscribeFromWithinPublish" computerName="CHANGE-L0231" duration="00:00:00.0322119" startTime="2009-07-28T22:43:16.7080000+08:00" endTime="2009-07-28T22:43:17.2730000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>Dog</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="976157be-c7d2-410e-a7b5-b3365d640377" testId="8444c13e-e90d-3e2b-618f-75773a62405d" testName="CannotUnsubscribeFromWithinPublish" computerName="CHANGE-L0231" duration="00:00:00.0074501" startTime="2009-07-28T22:43:17.2750000+08:00" endTime="2009-07-28T22:43:17.2870000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Paddle.BusTest.CannotUnsubscribeFromWithinPublish threw exception System.ArgumentNullException, but exception Paddle.PaddleException was expected. Exception message:  System.ArgumentNullException: Value cannot be null.
+Attempting to Unsubscribe from within a Publish will result in a deadlock</Message>
+          <StackTrace>    at System.Threading.Monitor.Enter(Object obj)
+   at Paddle.Scopes.ScopeStack`1.get_Stack() in C:\Projects\Paddle\src\Paddle\Scopes\ScopeStack.cs:line 54
+   at Paddle.Scopes.ScopeStack`1.Peek() in C:\Projects\Paddle\src\Paddle\Scopes\ScopeStack.cs:line 88
+   at Paddle.Bus.Subscribe[TNotification](Action`2 handler) in C:\Projects\Paddle\src\Paddle\Bus\Bus.cs:line 102
+   at Paddle.BusTest.CannotUnsubscribeFromWithinPublish() in C:\Projects\Paddle\Paddle.Test\BusTest.cs:line 74
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7b903540-1f76-435b-bf4a-014952e364aa" testId="bc1a2ae7-5d58-4235-5dc3-8d7b7e36fb80" testName="CanPublishSubscribe" computerName="CHANGE-L0231" duration="00:00:00.0014665" startTime="2009-07-28T22:43:17.2870000+08:00" endTime="2009-07-28T22:43:17.2970000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Paddle.BusTest.CanPublishSubscribe threw exception:  System.ArgumentNullException: Value cannot be null..</Message>
+          <StackTrace>    at System.Threading.Monitor.Enter(Object obj)
+   at Paddle.Scopes.ScopeStack`1.get_Stack() in C:\Projects\Paddle\src\Paddle\Scopes\ScopeStack.cs:line 54
+   at Paddle.Scopes.ScopeStack`1.Peek() in C:\Projects\Paddle\src\Paddle\Scopes\ScopeStack.cs:line 88
+   at Paddle.Bus.Subscribe[TNotification](Action`2 handler) in C:\Projects\Paddle\src\Paddle\Bus\Bus.cs:line 102
+   at Paddle.BusTest.CanPublishSubscribe() in C:\Projects\Paddle\Paddle.Test\BusTest.cs:line 23
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2310e0c9-b45b-4ee6-892e-d32700ed10a7" testId="40ab2078-0261-56e9-5871-30bfe9e8400a" testName="CanUnsubscibe" computerName="CHANGE-L0231" duration="00:00:00.0022030" startTime="2009-07-28T22:43:17.2970000+08:00" endTime="2009-07-28T22:43:17.3120000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Paddle.BusTest.CanUnsubscibe threw exception:  System.ArgumentNullException: Value cannot be null..</Message>
+          <StackTrace>    at System.Threading.Monitor.Enter(Object obj)
+   at Paddle.Scopes.ScopeStack`1.get_Stack() in C:\Projects\Paddle\src\Paddle\Scopes\ScopeStack.cs:line 54
+   at Paddle.Scopes.ScopeStack`1.Peek() in C:\Projects\Paddle\src\Paddle\Scopes\ScopeStack.cs:line 88
+   at Paddle.Bus.Subscribe[TNotification](Action`2 handler) in C:\Projects\Paddle\src\Paddle\Bus\Bus.cs:line 102
+   at Paddle.BusTest.CanUnsubscibe() in C:\Projects\Paddle\Paddle.Test\BusTest.cs:line 101
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
