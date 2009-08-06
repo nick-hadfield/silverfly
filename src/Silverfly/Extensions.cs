@@ -18,12 +18,12 @@ namespace Silverfly
         /// </summary>
         /// <param name="handler">The handler to be marshalled.</param>
         /// <returns>A new event handler proxy the marshalls the handler to the current synchronization context.</returns>
-        public static EventHandler<TEventArgs> Marshall<TEventArgs>(
-            this EventHandler<TEventArgs> handler
-        ) where TEventArgs : EventArgs
+        public static Action<object, TNotification> Marshall<TNotification>(
+            this Action<object, TNotification> handler
+        ) where TNotification : class
         {
             if (null == handler) return null;
-            return handler.Marshall<TEventArgs>(SynchronizationContext.Current);
+            return handler.Marshall<TNotification>(SynchronizationContext.Current);
         }
 
         /// <summary>
@@ -32,13 +32,13 @@ namespace Silverfly
         /// <param name="handler">The handler to be marshalled.</param>
         /// <param name="context">The synchronization context to which the handler should be marshalled.</param>
         /// <returns>A new event handler proxy the marshalls the handler to the specified synchronization context.</returns>
-        public static EventHandler<TEventArgs> Marshall<TEventArgs>(
-            this EventHandler<TEventArgs> handler,
+        public static Action<object, TNotification> Marshall<TNotification>(
+            this Action<object, TNotification> handler,
             SynchronizationContext context
-        ) where TEventArgs : EventArgs
+        ) where TNotification : class
         {
             if (null == handler) return null;
-            return new EventHandler<TEventArgs>(
+            return new Action<object, TNotification>(
                 (sender, eventArgs) =>
                 {
                     if (null == context)
@@ -47,18 +47,18 @@ namespace Silverfly
                     }
                     else
                     {
-                        context.Post(
+                        context.Send(
                             new SendOrPostCallback(
                                 (o) =>
                                 {
-                                    var info = (EventHandlerMarshallingInfo<TEventArgs>)o;
+                                    var info = (EventHandlerMarshallingInfo<TNotification>)o;
                                     handler(
                                         info.Sender,
                                         info.EventArgs
                                     );
                                 }
                             ),
-                            new EventHandlerMarshallingInfo<TEventArgs>()
+                            new EventHandlerMarshallingInfo<TNotification>()
                             {
                                 Sender = sender,
                                 EventArgs = eventArgs
@@ -72,11 +72,11 @@ namespace Silverfly
         /// <summary>
         /// Event handler marshalling info used by the Marshall extension method.
         /// </summary>
-        /// <typeparam name="TEventArgs"></typeparam>
-        private class EventHandlerMarshallingInfo<TEventArgs> where TEventArgs : EventArgs
+        /// <typeparam name="TNotification"></typeparam>
+        private class EventHandlerMarshallingInfo<TNotification> where TNotification : class
         {
             public object Sender { get; set; }
-            public TEventArgs EventArgs { get; set; }
+            public TNotification EventArgs { get; set; }
         }
 
         #endregion

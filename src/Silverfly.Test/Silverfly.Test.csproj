@@ -45,7 +45,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Silverfly\Silverfly.csproj">
       <Project>{39B13E46-A26B-46C2-80AA-AFF8C0532431}</Project>
-      <Name>Clout</Name>
+      <Name>Silverfly</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
