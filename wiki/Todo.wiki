@@ -1,0 +1,5 @@
+#Items that need looking at (in rough order of priority).
+
+  * Clean up example (using datatemplate?).
+  * Look at differences between Action<object, TNotification> and EventHandler<TEventArgs>.
+  * Make Marshall extension method fail fast when message pump not present.
