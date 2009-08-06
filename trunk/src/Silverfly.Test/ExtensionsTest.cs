@@ -18,7 +18,7 @@ namespace Silverfly.Test
         [TestMethod]
         public void CanMarshallGenericEventHandler()
         {
-            EventHandler<EventArgs> handler = ((EventHandler<EventArgs>)OnCompletion).Marshall();
+            Action<object, EventArgs> handler = ((Action<object, EventArgs>)OnCompletion).Marshall();
             var thread = new Thread(
                 new ThreadStart(() =>
                 {

@@ -1,0 +1,43 @@
+﻿<Window x:Class="Silverfly.Example.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Window1" Width="640">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="160"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="75"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="75"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="75"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Column="0" Grid.RowSpan="6">
+            <Button x:Name="_dogButton" Click="_dogButton_Click">Dog</Button>
+            <Button x:Name="_catButton" Click="_catButton_Click">Cat</Button>
+            <Button x:Name="_fishButton" Click="_fishButton_Click">Fish</Button>
+            <Button x:Name="_fishOnOtherThread" Click="_fishOnOtherThread_Click">Fish on other thread</Button>
+            <Button x:Name="_squareButton" Click="_squareButton_Click">Square</Button>
+            <Button x:Name="_triangleButton" Click="_triangleButton_Click">Triangle</Button>
+            <Button x:Name="_circleButton" Click="_circleButton_Click">Circle</Button>
+            <Button x:Name="_circleOnOtherThread" Click="_circleOnOtherThread_Click">Circle on other thread</Button>
+        </StackPanel>
+        <Label Grid.Column="1" Grid.Row="0">Animal Output...</Label>
+        <ScrollViewer Grid.Column="1" Grid.Row="1" >
+            <TextBlock x:Name="_animalOutput" />
+        </ScrollViewer>
+        
+        <Label Grid.Column="1" Grid.Row="2">Shape Output...</Label>
+        <ScrollViewer Grid.Column="1" Grid.Row="3" >
+            <TextBlock x:Name="_shapeOutput" />
+        </ScrollViewer>
+        
+        <Label Grid.Column="1" Grid.Row="4">Object Output...</Label>
+        <ScrollViewer Grid.Column="1" Grid.Row="5" >
+            <TextBlock x:Name="_objectOutput" />
+        </ScrollViewer>
+    </Grid>
+</Window>
