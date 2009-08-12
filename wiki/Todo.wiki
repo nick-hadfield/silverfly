@@ -1,7 +1,7 @@
 #labels todo
 =Items that need looking at (in rough order of priority)=
 
-  * Update copyright/versioning in AssemblyInfo.
+  * Update copyright/versioning in `AssemblyInfo`.
   * Create a redistributable.
   * Split example into two examples, one for animals/shapes, and one to demonstrate Marshall(). Tidy up in general.
   * Look at differences between `Action<object, TNotification>` and `EventHandler<TEventArgs>`.
