@@ -83,6 +83,9 @@
     <Compile Include="Domain\Square.cs" />
     <Compile Include="Domain\Triangle.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="..\SolutionAssemblyInfo.cs">
+      <Link>Properties\SolutionAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

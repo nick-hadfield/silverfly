@@ -59,8 +59,11 @@
     <Compile Include="Bus\HandlerInfo.cs" />
     <Compile Include="Bus\IBus.cs" />
     <Compile Include="Extensions.cs" />
-    <Compile Include="SilverflyException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SilverflyException.cs" />
+    <Compile Include="..\SolutionAssemblyInfo.cs">
+      <Link>Properties\SolutionAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="Scopes\IScopeStack.cs" />
     <Compile Include="Scopes\ScopeStack.cs" />
   </ItemGroup>
