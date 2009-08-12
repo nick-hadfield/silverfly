@@ -40,6 +40,9 @@
   <ItemGroup>
     <Compile Include="BusTest.cs" />
     <Compile Include="ExtensionsTest.cs" />
+    <Compile Include="..\SolutionAssemblyInfo.cs">
+      <Link>Properties\SolutionAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
